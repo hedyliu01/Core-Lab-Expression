@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "Mayenne Sans Regular";
+  src: url("./assets/Mayenne_Sans-Regular_web.woff2") format("woff2"); 
+}
+
+h1{
+      font-family:"Mayenne Sans Regular"
+
+}
+
+body{
+  background-color: linen;
+}
+
+.paragraph{
+  font-family:"Mayenne Sans Regular";
+  font-size: 20px;
+  color: lightsalmon;
+  transform: rotate(15deg);
+  margin-top: 200px;
+  margin-left: 200px;
+}
+
+.paragraph:hover {
+  font-family:"Mayenne Sans Regular";
+  text-decoration-line: line-through;
+}
+
+.secondparagraph{
+  font-family:"Mayenne Sans Regular";
+  font-size: 20px;
+  color: lightsalmon;
+  transform: rotate(-15deg);
+  margin-top: 250px;
+  margin-right: 250px;
+  text-align: right;
+}
+.secondparagraph:hover{
+  font-family:"Mayenne Sans Regular";
+  font-size: 50px;
+  color: lightblue;
+}
+
+.thirdparagraph{
+  font-family:"Mayenne Sans Regular";
+  font-size: 20px;
+  color: lightsalmon;
+  transform: rotate(15deg);
+  margin-top: 200px;
+  margin-left: 200px;
+}
+.red:hover{
+  font-family:"Mayenne Sans Regular";
+  font-size: 50px;
+  color: red;
+}
+
+.disappear{
+  font-family:"Mayenne Sans Regular";
+  font-size: 50px;
+}
+
+.disappear:hover{
+  opacity:0;
+}
+
+.title{
+  font-family:"Mayenne Sans Regular";
+  font-size: 100px;
+  color: lightgreen;
+  transform: rotate(-15deg);
+  margin-top: 250px;
+  margin-right: 250px;
+  text-align: right;
+}
